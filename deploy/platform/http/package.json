@@ -29,8 +29,8 @@
     "Steven Ov <steven.ov@teradata.com>"
   ],
   "peerDependencies": {
-    "@angular/core": "^6.0.0",
-    "@angular/http": "^6.0.0"
+    "@angular/core": "^6.0.2",
+    "@angular/http": "^6.0.2"
   },
   "main": "bundles/covalent-http.umd.js",
   "module": "esm5/covalent-http.js",

@@ -29,12 +29,12 @@
     "Steven Ov <steven.ov@teradata.com>"
   ],
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0",
-    "@angular/forms": "^6.0.0",
-    "@angular/router": "^6.0.0",
-    "@angular/cdk": "^6.0.0",
-    "@angular/material": "^6.0.0"
+    "@angular/common": "^6.0.2",
+    "@angular/core": "^6.0.2",
+    "@angular/forms": "^6.0.2",
+    "@angular/router": "^6.0.2",
+    "@angular/cdk": "^6.0.2",
+    "@angular/material": "^6.0.2"
   },
   "main": "bundles/covalent-core.umd.js",
   "module": "esm5/covalent-core.js",
