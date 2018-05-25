@@ -1,0 +1,43 @@
+{
+  "name": "@covalent/http",
+  "version": "2.0.0-beta.1.fix",
+  "description": "Teradata UI Platform Http Helper Module",
+  "keywords": [
+    "angular",
+    "components",
+    "reusable",
+    "http",
+    "rest",
+    "interceptor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teradata/covalent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teradata/covalent/issues"
+  },
+  "license": "MIT",
+  "author": "Teradata UX",
+  "contributors": [
+    "Kyle Ledbetter <kyle.ledbetter@teradata.com>",
+    "Richa Vyas <richa.vyas@teradata.com>",
+    "Ed Morales <eduardo.morales@teradata.com>",
+    "Jason Weaver <jason.weaver@teradata.com>",
+    "Jeremy Wilken <jeremy.wilken@teradata.com>",
+    "Jeremy Smartt <jeremy.smartt@teradata.com>",
+    "Steven Ov <steven.ov@teradata.com>"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "@angular/http": "^6.0.0"
+  },
+  "main": "bundles/covalent-http.umd.js",
+  "module": "esm5/covalent-http.js",
+  "es2015": "esm2015/covalent-http.js",
+  "typings": "covalent-http.d.ts",
+  "metadata": "covalent-http.metadata.json",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
