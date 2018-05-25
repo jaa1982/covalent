@@ -1,7 +1,8 @@
 <td-layout #layout
             [class]="activeTheme"
             [dir]="dir">
-  <td-navigation-drawer sidenavTitle="Covalent" logo="assets:teradata" navigationRoute="/" flex color="primary">
+  <td-navigation-drawer sidenavTitle="Covalent" logo="assets:teradata" navigationRoute="/" flex color="primary"
+    sidenavTitle="Covalent" logo="assets:teradata" name="Firstname Lastname" email="firstname.lastname@company.com">
     <mat-nav-list flex>
       <a mat-list-item
           tdLayoutClose
@@ -11,7 +12,7 @@
           <mat-icon matListIcon>home</mat-icon>
           Home
       </a>
-      <a *ngFor="let item of routes" 
+      <a *ngFor="let item of routes"
           mat-list-item
            tdLayoutClose
           [routerLink]="[item.route]"
@@ -19,7 +20,13 @@
           <mat-icon matListIcon>{{item.icon}}</mat-icon>
           {{item.title}}
       </a>
-    </mat-nav-list>
+      </mat-nav-list>
+      <div td-navigation-drawer-menu>
+        <mat-nav-list>
+          <a mat-list-item>
+            <mat-icon>account_box</mat-icon>Profile</a>
+        </mat-nav-list>
+      </div>
   </td-navigation-drawer>
   <router-outlet></router-outlet>
 </td-layout>
